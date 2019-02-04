@@ -1,0 +1,58 @@
+// Main Stylesheet
+
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+body {
+  background-color: black;
+}
+
+// Navbar Styles
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  #logo {
+    width: 15vw;
+
+    #logo-upper-layer {
+      h1 {
+        text-align: left;
+      }
+    }
+
+    #logo-lower-layer {
+      h1 {
+        text-align: right;
+      }
+    }
+
+    h1 {
+      width: 100%;
+      color: white;
+      font-family: 'PT Mono', monospace;
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      b {
+        color: orange;
+      }
+    }
+  }
+
+  ul {
+    margin-left: 2rem;
+
+    li {
+      display: inline-block;
+      margin-right: 3.5rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
